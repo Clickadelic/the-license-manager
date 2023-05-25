@@ -1,0 +1,31 @@
+{
+  "name": "the-license-manager",
+  "version": "1.0.0",
+  "description": "Manage your WordPress licenses the right way.",
+  "main": "index.js",
+  "scripts": {
+    "build-style": "sass ./assets/scss/license-manager.scss ./assets/css/license-manager.css --watch --no-source-map" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clickadelic/the-license-manager.git"
+  },
+  "keywords": [
+    "WordPress",
+    "PHP",
+    "license",
+    "management"
+  ],
+  "author": "Tobias Hopp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clickadelic/the-license-manager/issues"
+  },
+  "homepage": "https://github.com/Clickadelic/the-license-manager#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
