@@ -7,7 +7,7 @@ function license_manager_metaboxes() {
 		'licence-data',
 		__('Licence data', 'the-license-manager'),
 		'license_manager_metabox_callback_general',
-		'licences',
+		'license',
 		'normal',
 		'high'
 	);
@@ -16,7 +16,7 @@ function license_manager_metaboxes() {
 		'google-data',
 		__('Google', 'the-license-manager'),
 		'license_manager_metabox_callback_google',
-		'licences',
+		'license',
 		'normal',
 		'low'
 	);
@@ -25,7 +25,7 @@ function license_manager_metaboxes() {
 		'support-data',
 		__('Support data', 'the-license-manager'),
 		'license_manager_metabox_callback_support',
-		'licences',
+		'license',
 		'normal',
 		'low'
 	);
@@ -34,7 +34,7 @@ function license_manager_metaboxes() {
 		'pricing-data',
 		__('Licence price', 'the-license-manager'),
 		'license_manager_metabox_callback_pricing',
-		'licences',
+		'license',
 		'side',
 		'low'
 	);
