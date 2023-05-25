@@ -1,4 +1,4 @@
-# WebDev HQ Licence Manager
+# Licence Manager
 Manage your WordPress licences the right way.
 
 ## Why this plugin?
