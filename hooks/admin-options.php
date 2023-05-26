@@ -61,7 +61,7 @@ function license_manager_options_content() {
     $args = array(
         'orderby' => 'name',
         'order' => 'ASC',
-        'post_type' => 'licences',
+        'post_type' => 'license',
         'posts_per_page' => -1
     );
     // New Query Obj
@@ -72,9 +72,9 @@ function license_manager_options_content() {
             $html .= '<thead>';
                 $html.= '<tr>';
                     $html .= '<th>'.__('ID', 'the-license-manager').'</th>';
-                    $html .= '<th>'.__('Licence name', 'the-license-manager').'</th>';
+                    $html .= '<th>'.__('License name', 'the-license-manager').'</th>';
                     $html .= '<th>'.__('Purchase type', 'the-license-manager').'</th>';
-                    $html .= '<th>'.__('Licence type', 'the-license-manager').'</th>';
+                    $html .= '<th>'.__('License type', 'the-license-manager').'</th>';
                     $html .= '<th>'.__('Purchase date', 'the-license-manager').'</th>';
                     $html .= '<th>'.__('Expiry date', 'the-license-manager').'</th>';
                     $html .= '<th>'.__('Euro &euro;', 'the-license-manager').'</th>';
