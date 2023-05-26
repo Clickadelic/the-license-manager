@@ -10799,6 +10799,11 @@ a[target=_blank]:after {
   color: #0d6efd;
 }
 
+.irgendwas {
+  background: red;
+  color: blue;
+}
+
 .wp-core-ui select {
   border-color: #ccd0d4;
 }
