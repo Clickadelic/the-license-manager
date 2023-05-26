@@ -10788,6 +10788,10 @@ a.row-title:focus {
   clear: both;
 }
 
+.test {
+  color: green;
+}
+
 a[target=_blank]:after {
   display: inline-block;
   height: 12px;
