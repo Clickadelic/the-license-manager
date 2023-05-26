@@ -2,60 +2,62 @@
 
 function license_manager_register_admin_scripts() {
 	global $pagenow, $typenow;
+	
+	$dir = plugin_dir_url( __DIR__ );
 
     wp_register_style(
         'license-manager-backend-style',
-		LM_PLUGIN_ROOT . '/assets/css/license-manager.css'
+		$dir . '/assets/css/license-manager.css'
     );
     wp_register_style(
         'license-manager-bootstrap-datetime-picker-min-style',
-        LM_PLUGIN_ROOT . '/assets/css/bootstrap-datetime-picker.min.css'
+        $dir . '/assets/css/bootstrap-datetime-picker.min.css'
     );
     wp_register_script(
         'license-manager-clipboard-min-script',
-        LM_PLUGIN_ROOT . '/assets/js/clipboard.min.js',
+        $dir . '/assets/js/clipboard.min.js',
         array('jquery'),
         NULL,
         true
     );
     wp_register_script(
         'moment-de-locale',
-        LM_PLUGIN_ROOT . '/assets/js/moment-de.js',
+        $dir . '/assets/js/moment-de.js',
         array('jquery'),
         NULL,
         true
     );
     wp_register_script(
         'moment-js-min-script',
-        LM_PLUGIN_ROOT . '/assets/js/moment.min.js',
+        $dir . '/assets/js/moment.min.js',
         array('jquery'),
         NULL,
         true
     );
     wp_register_script(
         'license-manager-bootstrap-datetime-picker-min-script',
-        LM_PLUGIN_ROOT . '/assets/js/bootstrap-datetime-picker.min.js',
+        $dir . '/assets/js/bootstrap-datetime-picker.min.js',
         array('jquery'),
         NULL,
         true
     );
     wp_register_script(
         'license-manager-popper-min-script',
-        LM_PLUGIN_ROOT . '/assets/js/popper.min.js',
+        $dir . '/assets/js/popper.min.js',
         array('jquery'),
         NULL,
         true
     );
     wp_register_script(
         'license-manager-bootstrap-min-script',
-        LM_PLUGIN_ROOT . '/assets/js/bootstrap.min.js',
+        $dir . '/assets/js/bootstrap.min.js',
         array('jquery'),
         NULL,
         true
     );
     wp_register_script(
         'license-manager-backend-script',
-        LM_PLUGIN_ROOT . '/assets/js/license-manager-backend.js',
+        $dir . '/assets/js/license-manager.js',
         array('jquery'),
         NULL,
         true
@@ -67,7 +69,7 @@ function license_manager_register_admin_scripts() {
 
 	if(($pagenow === 'post.php' ||
         $pagenow === 'post-new.php' ||
-        $pagenow === 'edit.php') && $typenow === 'licences') {
+        $pagenow === 'edit.php') && $typenow === 'license') {
         wp_enqueue_media();
         wp_enqueue_style('license-manager-backend-style');
         wp_enqueue_style('license-manager-bootstrap-datetime-picker-min-style');

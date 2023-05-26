@@ -1,9 +1,9 @@
 <?php
-/* Register CPT Licence Projects */
+
 function license_manager_register_license_projects() {
-	// Where to register the Taxonomy
-	$cpt_name = 'licences';
-	$cpt_slug = 'licence-projects';
+
+	$cpt_name = 'license';
+	$cpt_slug = 'license-projects';
 
 	$labels = array(
 		'name'						=>	__('Projects', 'the-license-manager'),
@@ -25,7 +25,6 @@ function license_manager_register_license_projects() {
 		'menu_name'					=>	__('Projects', 'the-license-manager')
 	);	
 
-	// Taxonomy Args
 	$args = array(
 		'hierarchical'				=>	true,
 		'labels'					=>	$labels,
@@ -42,12 +41,10 @@ function license_manager_register_license_projects() {
 }
 add_action('init', 'license_manager_register_license_projects');
 
-/* Register Usage Tag */
-function licence_manager_register_taxonomy_usage_tag() {
-	$cpt_name = 'licences';
+function license_manager_register_taxonomy_usage_tag() {
+	$cpt_name = 'license';
 	$cpt_slug = 'usage-tag';
 
-	// Taxonomy Labels
 	$labels = array(
 		'name'						=>	__('Usage tags', 'the-license-manager'),
 		'singular_name'				=>	__('Usage tag', 'the-license-manager'),
@@ -67,7 +64,6 @@ function licence_manager_register_taxonomy_usage_tag() {
 		'menu_name'					=>	__('Usage tags', 'the-license-manager')
 	);
 
-	// Taxonomy Args
 	$args = array(
 		'hierarchical'				=>	false,
 		'labels'					=>	$labels,
@@ -81,4 +77,4 @@ function licence_manager_register_taxonomy_usage_tag() {
 	);
 	register_taxonomy($cpt_slug, $cpt_name, $args);
 }
-add_action('init', 'licence_manager_register_taxonomy_usage_tag');
+add_action('init', 'license_manager_register_taxonomy_usage_tag');

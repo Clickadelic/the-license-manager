@@ -55,9 +55,9 @@ a[target="_blank"]:after {
 	height: 40px;
 }
 
-#licence-manager-post-metabox-layout,
-#licence-manager-post-google-layout,
-#licence-manager-post-support-layout {
+#license-manager-post-metabox-layout,
+#license-manager-post-google-layout,
+#license-manager-post-support-layout {
 	label {
 		font-weight: bold;
 		color: $gray-600;
@@ -66,7 +66,7 @@ a[target="_blank"]:after {
 }
 
 // Sidebar metbox Pricing
-#licence-manager-post-pricing-layout {
+#license-manager-post-pricing-layout {
 	padding: 0 1rem 1rem 1rem;
 	.input-group {
 		input[type="text"]{
@@ -117,11 +117,11 @@ a[target="_blank"]:after {
 }
 
 // Options page
-body.settings_page_licence-manager-options .wrap h2:first-of-type {
+body.settings_page_license-manager-options .wrap h2:first-of-type {
 	display: none;
 }
 
-#table-licence-manager-overview {
+#table-license-manager-overview {
 	tr {
 		th:first-of-type {
 			width: 35px;
@@ -160,7 +160,7 @@ body.settings_page_licence-manager-options .wrap h2:first-of-type {
 	}
 }
 
-.licence-types-wrapper {
+.license-types-wrapper {
 	margin-left: 1.5rem;
 }
 
