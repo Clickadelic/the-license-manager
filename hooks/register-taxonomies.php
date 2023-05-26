@@ -1,11 +1,7 @@
 <?php
 
 function license_manager_register_license_projects() {
-<<<<<<< HEAD
 
-=======
-	// Where to register the Taxonomy
->>>>>>> f909a3e6edecfec1f4a6948d051f7f25e9527466
 	$cpt_name = 'license';
 	$cpt_slug = 'license-projects';
 
@@ -45,12 +41,8 @@ function license_manager_register_license_projects() {
 }
 add_action('init', 'license_manager_register_license_projects');
 
-<<<<<<< HEAD
+
 function license_manager_register_taxonomy_usage_tag() {
-=======
-/* Register Usage Tag */
-function licence_manager_register_taxonomy_usage_tag() {
->>>>>>> f909a3e6edecfec1f4a6948d051f7f25e9527466
 	$cpt_name = 'license';
 	$cpt_slug = 'usage-tag';
 
