@@ -2,8 +2,8 @@
 /* Register CPT Licence Projects */
 function license_manager_register_license_projects() {
 	// Where to register the Taxonomy
-	$cpt_name = 'licences';
-	$cpt_slug = 'licence-projects';
+	$cpt_name = 'license';
+	$cpt_slug = 'license-projects';
 
 	$labels = array(
 		'name'						=>	__('Projects', 'the-license-manager'),
@@ -44,7 +44,7 @@ add_action('init', 'license_manager_register_license_projects');
 
 /* Register Usage Tag */
 function licence_manager_register_taxonomy_usage_tag() {
-	$cpt_name = 'licences';
+	$cpt_name = 'license';
 	$cpt_slug = 'usage-tag';
 
 	// Taxonomy Labels

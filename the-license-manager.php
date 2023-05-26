@@ -14,6 +14,7 @@ Domain Path: /languages
 
 if(!defined('ABSPATH')) {exit('NaNa nAnA NaNa nAnA NaNa nAnA Batman!');}
 if(!defined('LM_PLUGIN_ROOT')){ define('LM_PLUGIN_ROOT', basename(__DIR__));}
+// TODO Slash prefix / wrong path
 $dir = plugin_dir_path(__FILE__);
 require $dir.'hooks/plugins-loaded.php';
 require $dir.'hooks/register-custom-post-type.php';
