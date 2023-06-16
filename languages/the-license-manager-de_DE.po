@@ -1,15 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The License Manager\n"
-"POT-Creation-Date: 2023-05-27 01:18+0200\n"
-"PO-Revision-Date: 2023-05-27 01:21+0200\n"
-"Last-Translator: Tobias Hopp <translations@tobias-hopp.de>\n"
-"Language-Team: Tobias Hopp <translations@tobias-hopp.de>\n"
+"POT-Creation-Date: 2023-06-16 23:38+0200\n"
+"PO-Revision-Date: 2023-06-16 23:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -89,7 +88,7 @@ msgstr "31.12.2023"
 
 #: hooks/add-meta-boxes.php:82
 msgid "Login url"
-msgstr "Login URL"
+msgstr "Login-URL"
 
 #: hooks/add-meta-boxes.php:84
 msgid "https://example.com/login/"
@@ -105,377 +104,382 @@ msgstr "Zugehörige E-Mail"
 
 #: hooks/add-meta-boxes.php:92
 msgid "webmaster@gundlach-automotive.com"
-msgstr ""
+msgstr "webmaster@gundlach-automotive.com"
 
 #: hooks/add-meta-boxes.php:97
 msgid "Associated password"
-msgstr ""
+msgstr "Zugehöriges Passwort"
 
 #: hooks/add-meta-boxes.php:99
 msgid "s0m3r4nd0m$tr!n5"
-msgstr ""
+msgstr "s0m3r4nd0m$tr!n5"
 
 #: hooks/add-meta-boxes.php:118
 msgid "Website url"
-msgstr ""
+msgstr "Website-URL"
 
 #: hooks/add-meta-boxes.php:120
 msgid "https://example.com"
-msgstr ""
+msgstr "https://example.com"
 
 #: hooks/add-meta-boxes.php:121
 msgid "Go to website"
-msgstr ""
+msgstr "Zur Webseite"
 
 #: hooks/add-meta-boxes.php:128
 msgid "Associated owner"
-msgstr ""
+msgstr "Assoziierter Besitzer"
 
 #: hooks/add-meta-boxes.php:129 hooks/add-meta-boxes.php:136
 msgid "Gundlach-IT"
 msgstr ""
 
-#: hooks/add-meta-boxes.php:135 hooks/admin-options.php:75
-#: hooks/admin-options.php:157
+#: hooks/add-meta-boxes.php:135 hooks/admin-options.php:157
 msgid "Licence name"
-msgstr ""
+msgstr "Lizenzname"
 
 #: hooks/add-meta-boxes.php:136
 msgid "e.g. basic, business, etc."
-msgstr ""
+msgstr "z.B. Basic, Business, etc."
 
 #: hooks/add-meta-boxes.php:142
 msgid "Notes"
-msgstr ""
+msgstr "Notizen"
 
 #: hooks/add-meta-boxes.php:146
 msgid "Please choose the type of the licence"
-msgstr ""
+msgstr "Bitte wähle die Art der Lizenz"
 
 #: hooks/add-meta-boxes.php:156 hooks/admin-options.php:121
 msgid "Single licence"
-msgstr ""
+msgstr "Einzelne Lizenz"
 
 #: hooks/add-meta-boxes.php:160
 msgid "Multisite capable"
-msgstr ""
+msgstr "Multisite-fähig"
 
 #: hooks/add-meta-boxes.php:164 hooks/admin-options.php:127
 msgid "Volume licence"
-msgstr ""
+msgstr "Volumenlizenz"
 
 #: hooks/add-meta-boxes.php:184
 msgid "User Token / Client Secret"
-msgstr ""
+msgstr "Benutzertoken / Client Secret"
 
 #: hooks/add-meta-boxes.php:185
 msgid "1474089446-dl7ksm1h6a9df898df98je"
-msgstr ""
+msgstr "1474089446-dl7ksm1h6a9df898df98je"
 
 #: hooks/add-meta-boxes.php:191
 msgid "API Key"
-msgstr ""
+msgstr "API-Schlüssel"
 
 #: hooks/add-meta-boxes.php:192
 msgid "dalskdj239e20ad"
-msgstr ""
+msgstr "dalskdj239e20ad"
 
 #: hooks/add-meta-boxes.php:200
 msgid "Javascript Origin"
-msgstr ""
+msgstr "Javascript-Origin"
 
 #: hooks/add-meta-boxes.php:201
 msgid "https://example.com/"
-msgstr ""
+msgstr "https://example.com"
 
 #: hooks/add-meta-boxes.php:207
 msgid "Javascript Auth URL"
-msgstr ""
+msgstr "Javascript Auth-URL"
 
 #: hooks/add-meta-boxes.php:208
 msgid "https://example.com?options.php=authorized-endpoint"
-msgstr ""
+msgstr "https://example.com?options.php=authorized-endpoint"
 
 #: hooks/add-meta-boxes.php:226
 msgid "Person of contact"
-msgstr ""
+msgstr "Ansprechpartner"
 
 #: hooks/add-meta-boxes.php:227
 msgid "John Doe"
-msgstr ""
+msgstr "Max Mustermann"
 
 #: hooks/add-meta-boxes.php:227
 msgid "John doe"
-msgstr ""
+msgstr "z.B. Max Mustermann"
 
 #: hooks/add-meta-boxes.php:232
 msgid "Support e-mail"
-msgstr ""
+msgstr "Support-E-Mail"
 
 #: hooks/add-meta-boxes.php:233
 msgid "support@product.com"
-msgstr ""
+msgstr "support@product.com"
 
 #: hooks/add-meta-boxes.php:238
 msgid "Support phone"
-msgstr ""
+msgstr "Support-Telefon"
 
 #: hooks/add-meta-boxes.php:239
 msgid "+49 2345 234"
-msgstr ""
+msgstr "+49 2345 234"
 
 #: hooks/admin-enqueue-scripts.php:94
 msgid "Logo upload"
-msgstr ""
+msgstr "Logo-Upload"
 
 #: hooks/admin-enqueue-scripts.php:95
 msgid "Use this file"
-msgstr ""
+msgstr "Verwende diese Datei"
 
 #: hooks/admin-options.php:6 hooks/admin-options.php:44
 msgid "Licence manager options"
-msgstr ""
+msgstr "Theme-Einstellungen"
 
 #: hooks/admin-options.php:7 hooks/wp-before-admin-bar-render.php:9
 msgid "Licence manager"
-msgstr ""
+msgstr "Lizenzmanager"
 
 #: hooks/admin-options.php:25
 msgid "License overview"
-msgstr ""
+msgstr "Lizenzübersicht"
 
 #: hooks/admin-options.php:34
 msgid "Current licences"
-msgstr ""
+msgstr "Aktuelle Lizenzen"
 
 #: hooks/admin-options.php:74 hooks/admin-options.php:156
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#: hooks/admin-options.php:77 hooks/admin-options.php:159
-msgid "Licence type"
-msgstr ""
+#: hooks/admin-options.php:75
+msgid "License name"
+msgstr "Lizenzname"
+
+#: hooks/admin-options.php:77
+msgid "License type"
+msgstr "Lizenztyp"
 
 #: hooks/admin-options.php:78 hooks/admin-options.php:160
 msgid "Purchase date"
-msgstr ""
+msgstr "Kaufdatum"
 
 #: hooks/admin-options.php:79 hooks/admin-options.php:161
 #: hooks/custom-columns.php:4
 msgid "Expiry date"
-msgstr ""
+msgstr "Ablaufdatum"
 
 #: hooks/admin-options.php:80 hooks/admin-options.php:162
 msgid "Euro &euro;"
-msgstr ""
+msgstr "Euro €"
 
 #: hooks/admin-options.php:81 hooks/admin-options.php:163
 msgid "&dollar; U.S."
-msgstr ""
+msgstr "&dollar; U.S."
 
 #: hooks/admin-options.php:82 hooks/admin-options.php:164
 msgid "&pound; GPB"
-msgstr ""
+msgstr "&pound; GPB"
 
 #: hooks/admin-options.php:103
 msgid "Edit this licence"
-msgstr ""
+msgstr "Bearbeiten dieser Lizenz"
 
 #: hooks/admin-options.php:124
 msgid "Multisite-capable"
-msgstr ""
+msgstr "Multisite-fähig"
+
+#: hooks/admin-options.php:159
+msgid "Licence type"
+msgstr "Lizenztyp"
 
 #: hooks/admin-options.php:171
 msgid "Currently no licences available"
-msgstr ""
+msgstr "Derzeit keine Lizenzen verfügbar"
 
 #: hooks/enter-title-here.php:5
 msgid "Enter license name"
-msgstr ""
+msgstr "Lizenznamen eingeben"
 
 #: hooks/plugin-action-links.php:4 hooks/wp-dashboard-setup.php:52
 msgid "Options"
-msgstr ""
+msgstr "Optionen"
 
 #: hooks/register-custom-post-type.php:13
 #: hooks/register-custom-post-type.php:15
-#: hooks/register-custom-post-type.php:16
-msgid "Licences"
-msgstr ""
+#: hooks/register-custom-post-type.php:16 hooks/wp-dashboard-setup.php:40
+msgid "Licenses"
+msgstr "Lizenzen"
 
 #: hooks/register-custom-post-type.php:14
-msgid "Licence"
-msgstr ""
+msgid "License"
+msgstr "Lizenz"
 
 #: hooks/register-custom-post-type.php:17
-msgid "All licences"
-msgstr ""
+msgid "All licenses"
+msgstr "Alle Lizenzen"
 
 #: hooks/register-custom-post-type.php:18
-#: hooks/register-custom-post-type.php:19 hooks/wp-dashboard-setup.php:28
-msgid "Add new licence"
-msgstr ""
+#: hooks/register-custom-post-type.php:19
+msgid "Add new license"
+msgstr "Lizenz hinzufügen"
 
 #: hooks/register-custom-post-type.php:20
 #: hooks/register-custom-post-type.php:21
-msgid "Edit licence"
-msgstr ""
+msgid "Edit license"
+msgstr "Lizenz bearbeiten"
 
 #: hooks/register-custom-post-type.php:22
-msgid "New licence"
-msgstr ""
+msgid "New license"
+msgstr "Lizenz hinzufügen"
 
 #: hooks/register-custom-post-type.php:23
-msgid "View licences"
-msgstr ""
+msgid "View licenses"
+msgstr "Lizenzen ansehen"
 
 #: hooks/register-custom-post-type.php:24
-msgid "View licence"
-msgstr ""
+msgid "View license"
+msgstr "Lizenz hinzufügen"
 
 #: hooks/register-custom-post-type.php:25
-msgid "Search licences"
-msgstr ""
+msgid "Search licenses"
+msgstr "Lizenzen durchsuchen"
 
 #: hooks/register-custom-post-type.php:26
-msgid "Parent licence"
-msgstr ""
+msgid "Parent license"
+msgstr "Parent-Lizenz"
 
 #: hooks/register-custom-post-type.php:27
-msgid "No licences found"
-msgstr ""
+msgid "No licenses found"
+msgstr "Keine Lizenzen gefunden"
 
 #: hooks/register-custom-post-type.php:28
-msgid "No licences found in Trash"
-msgstr ""
+msgid "No licenses found in Trash"
+msgstr "Keine Lizenzen im Papierkorb gefunden"
 
 #: hooks/register-taxonomies.php:9 hooks/register-taxonomies.php:25
 #: hooks/wp-dashboard-setup.php:34
 msgid "Projects"
-msgstr ""
+msgstr "Projekte"
 
 #: hooks/register-taxonomies.php:10
 msgid "Project"
-msgstr ""
+msgstr "Projekt"
 
 #: hooks/register-taxonomies.php:11
 msgid "Search projects"
-msgstr ""
+msgstr "Projekte durchsuchen"
 
 #: hooks/register-taxonomies.php:12
 msgid "Popular projects"
-msgstr ""
+msgstr "Populäre Projekte"
 
 #: hooks/register-taxonomies.php:13
 msgid "All projects"
-msgstr ""
+msgstr "Alle Projekte"
 
 #: hooks/register-taxonomies.php:16
 msgid "Edit project"
-msgstr ""
+msgstr "Projekt bearbeiten"
 
 #: hooks/register-taxonomies.php:17
 msgid "Update project"
-msgstr ""
+msgstr "Projekt aktualisieren"
 
 #: hooks/register-taxonomies.php:18
 msgid "Add New project"
-msgstr ""
+msgstr "Neues Projekt hinzufügen"
 
 #: hooks/register-taxonomies.php:19
 msgid "New project"
-msgstr ""
+msgstr "Neues Projekt"
 
 #: hooks/register-taxonomies.php:20
 msgid "Separate projects"
-msgstr ""
+msgstr "Projekte trennen"
 
 #: hooks/register-taxonomies.php:21
 msgid "Add or remove projects"
-msgstr ""
+msgstr "Hinzufügen oder Entfernen von Projekten"
 
 #: hooks/register-taxonomies.php:22
 msgid "Choose from most used projects"
-msgstr ""
+msgstr "Wähle  aus den am häufigsten verwendeten Projekten"
 
 #: hooks/register-taxonomies.php:23
 msgid "No projects found"
-msgstr ""
+msgstr "Keine Projekte gefunden"
 
 #: hooks/register-taxonomies.php:24
 msgid "No projects found in trash"
-msgstr ""
+msgstr "Keine Porojekte im Papierkorb gefunden"
 
-#: hooks/register-taxonomies.php:52 hooks/register-taxonomies.php:67
+#: hooks/register-taxonomies.php:50 hooks/register-taxonomies.php:65
 #: hooks/wp-dashboard-setup.php:46
 msgid "Usage tags"
-msgstr ""
+msgstr "Anwendungsbereiche"
+
+#: hooks/register-taxonomies.php:51
+msgid "Usage tag"
+msgstr "Verwendungs-Tags"
+
+#: hooks/register-taxonomies.php:52
+msgid "Search usage tags"
+msgstr "Verwendungs-Tags durchsuchen"
 
 #: hooks/register-taxonomies.php:53
-msgid "Usage tag"
-msgstr ""
+msgid "Popular usage tags"
+msgstr "Beliebte Anwendungen"
 
 #: hooks/register-taxonomies.php:54
-msgid "Search usage tags"
-msgstr ""
-
-#: hooks/register-taxonomies.php:55
-msgid "Popular usage tags"
-msgstr ""
-
-#: hooks/register-taxonomies.php:56
 msgid "All usage tags"
-msgstr ""
+msgstr "Alle Anwendungen"
+
+#: hooks/register-taxonomies.php:57
+msgid "Edit usage tags"
+msgstr "Bearbeiten von Anwendungen"
+
+#: hooks/register-taxonomies.php:58
+msgid "Update usage tags"
+msgstr "Anwendungen aktualisieren"
 
 #: hooks/register-taxonomies.php:59
-msgid "Edit usage tags"
-msgstr ""
+msgid "Add New usage tags"
+msgstr "Anwendung hinzufügen"
 
 #: hooks/register-taxonomies.php:60
-msgid "Update usage tags"
-msgstr ""
+msgid "New usage tags"
+msgstr "Neuer Anwendungbereich"
 
 #: hooks/register-taxonomies.php:61
-msgid "Add New usage tags"
-msgstr ""
+msgid "Separate usage tags"
+msgstr "Anwendungsbereiche trennen"
 
 #: hooks/register-taxonomies.php:62
-msgid "New usage tags"
-msgstr ""
+msgid "Add or remove usage tags"
+msgstr "Hinzufügen oder Entfernen von Anwendungen"
 
 #: hooks/register-taxonomies.php:63
-msgid "Separate usage tags"
-msgstr ""
+msgid "Choose from most used usage tags"
+msgstr "Wählen Sie aus den am häufigsten verwendeten Anwendungsbereichen"
 
 #: hooks/register-taxonomies.php:64
-msgid "Add or remove usage tags"
-msgstr ""
-
-#: hooks/register-taxonomies.php:65
-msgid "Choose from most used usage tags"
-msgstr ""
-
-#: hooks/register-taxonomies.php:66
 msgid "No usage tags found"
-msgstr ""
+msgstr "Keine Verwendungs-Tags gefunden"
 
 #: hooks/wp-dashboard-setup.php:6
 msgid "License manager"
-msgstr ""
+msgstr "Der Lizenzmanager"
+
+#: hooks/wp-dashboard-setup.php:28
+msgid "Add new licence"
+msgstr "Neue Lizenz hinzufügen"
 
 #: hooks/wp-dashboard-setup.php:28
 msgid "add new licence"
-msgstr ""
-
-#: hooks/wp-dashboard-setup.php:40
-#, fuzzy
-#| msgid "Licence data"
-msgid "Licenses"
-msgstr "Lizenzdaten"
+msgstr "neue Lizenz hinzufügen"
 
 #: hooks/wp-dashboard-setup.php:40
 msgid "license in total"
-msgstr ""
+msgstr "Lizenzen insgesamt"
 
 #: hooks/wp-dashboard-setup.php:52
 msgid "Go to options"
@@ -483,20 +487,20 @@ msgstr "Zu den Optionen"
 
 #. Plugin Name of the plugin/theme
 msgid "The License Manager"
-msgstr ""
+msgstr "Der Lizenzmanager"
 
 #. Plugin URI of the plugin/theme
 msgid "https://www.tobias-hopp.de/wordpress/plugins/the-license-manager/"
-msgstr ""
+msgstr "https://www.tobias-hopp.de/wordpress/plugins/the-license-manager/"
 
 #. Description of the plugin/theme
 msgid "A plugin to manage WordPress licenses the right way."
-msgstr ""
+msgstr "Ein Plugin, um WordPress-Lizenzen auf einfache Weise zu verwalten."
 
 #. Author of the plugin/theme
 msgid "Tobias Hopp"
-msgstr ""
+msgstr "Tobias Hopp"
 
 #. Author URI of the plugin/theme
 msgid "https://www.tobias-hopp.de/"
-msgstr ""
+msgstr "https://www.tobias-hopp.de"
