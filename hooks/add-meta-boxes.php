@@ -54,15 +54,11 @@ function license_manager_metabox_callback_general( $post ) {
 						<input type="text" name="license-key" class="form-control" id="license-key" placeholder="<?php _e('XXXX-XXXX-XXXX-XXXX','the-license-manager'); ?>" aria-label="<?php _e('License key','the-license-manager'); ?>" value="<?php if (isset ($license_manager_meta['license_key'])) echo $license_manager_meta['license_key'][0]; ?>" />
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-2 mt-3 mb-5">
+				<div class="col-xs-12 col-sm-12 col-md-2 mt-3 mb-5 asdasd">
 					<div class="form-group">
 						<label for="purchase-type"><?php _e('Purchase type', 'the-license-manager'); ?>:</label>
 						<?php
-						
-						
-						$value = $license_manager_meta['purchase-type'][0];
-						// var_dump($value);
-						
+							$value = isset($license_manager_meta['purchase-type'][0]) ? $license_manager_meta['purchase-type'][0] : '';
 						?>
 						<select name="purchase-type" class="form-select" id="purchase-type">
 							<option value=""><?php _e('Please select', 'the-license-manager'); ?></option>
